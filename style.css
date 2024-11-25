@@ -1,18 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
+    padding: 10px 100px;
+    margin-top: 20px;
   }
   
   h1 {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin-bottom: 10px;
   }
   
   ul {
     list-style: none;
-    padding: 0;
+    padding: 0 500px;
     margin: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 600px; */
+    justify-content: center;
+    gap: 10px;
+    
+    
   }
   
   li {
@@ -97,3 +117,10 @@ body {
     -moz-appearance: textfield;
   }
   
+  .main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }

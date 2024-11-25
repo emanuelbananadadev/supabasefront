@@ -5,16 +5,17 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <h1>Product CRUD</h1>
-
-  <form id="add-product-form">
-    <h2>Add Product</h2>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-    <label for="price">Price:</label>
-    <input type="number" id="price" name="price" required step="0.01">
-    <button type="submit">Add</button>
-  </form>
+  <h1>Produtos</h1>
+  <div class="main">
+    <form id="add-product-form">
+      <h2>Adicionar produtos</h2>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="price">Preço:</label>
+      <input type="number" id="price" name="price" required step="0.01">
+      <button type="submit">Adicionar</button>
+    </form>
+  </div>
 
   <ul id="products"></ul>
 
