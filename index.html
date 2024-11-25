@@ -13,8 +13,24 @@
       <input type="text" id="name" name="name" required>
       <label for="price">Preço:</label>
       <input type="number" id="price" name="price" required step="0.01">
+      <label for="description">Descrição:</label>
+      <input type="text" id="description" name="description" required>
       <button type="submit">Adicionar</button>
     </form>
+
+    <form id="update-product-form" style="display: none;">
+      <h2>Atualizar Produto</h2>
+      <input type="hidden" id="update-id">
+      <label for="update-name">Nome:</label>
+      <input type="text" id="update-name" required>
+      <label for="update-price">Preço:</label>
+      <input type="number" id="update-price" required step="0.01">
+      <label for="update-description">Descrição:</label>
+      <input type="text" id="update-description" required>
+      <button type="submit">Atualizar</button>
+    </form>
+    
+    
   </div>
 
   <ul id="products"></ul>
