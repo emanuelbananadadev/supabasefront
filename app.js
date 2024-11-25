@@ -9,7 +9,7 @@ const updateProductDescription = document.querySelector('#update-description');
 
 // Function to fetch all products from the server
 async function fetchProducts() {
-  const response = await fetch('http://localhost:3000/products');
+  const response = await fetch('http://3.88.190.73:3000/products');
   const products = await response.json();
 
   // Clear product list
